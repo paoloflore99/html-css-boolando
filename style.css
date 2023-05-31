@@ -8,11 +8,51 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+nav {
+    background-color: rgb(243, 143, 49);
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+
+.nav-conteiner {
+    display: inline-block;
+    padding: 1rem 1rem;
+
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
+.logo {
+    width: 200px;
+
+}
+
+main {
+    padding-top: 200px;
+}
+
 .conteiner {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-
 }
 
 .row {
@@ -31,6 +71,7 @@ body {
     height: 600px;
     display: block;
     position: relative;
+    margin-bottom: 4rem;
 }
 
 .models img {
@@ -52,4 +93,55 @@ body {
 .red {
     color: white;
     font-size: 14px;
+}
+
+h6 {
+    font-size: 10px;
+}
+
+.discount {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0%;
+    padding: 2rem 0rem;
+}
+
+.price {
+    color: red;
+
+}
+
+.meno {
+    color: grey;
+    text-decoration: line-through;
+}
+
+.Heart {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-color: rgb(255, 255, 255);
+    width: 2.8rem;
+    height: 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parte {
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Heart-red {
+    
+}
+
+.foto {
+    overflow: ;
 }
