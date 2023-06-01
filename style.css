@@ -138,10 +138,22 @@ h6 {
 
 }
 
-.Heart-red {
-    
+.foto-2 {
+    display: none;
 }
 
-.foto {
-    overflow: ;
+
+.foto:hover .foto-1 {
+    display: none;
+}
+
+.foto:hover .foto-2 {
+    display: block;
+}
+
+.foto-1,
+.foto-2 {
+    width: 100%;
+    height: 100%;
+    object-fit: none;
 }
